@@ -1,4 +1,5 @@
-package testFirstNeon;
+package IntegrationContinu.IntegrationContinuId;
+
 
 
 import static org.junit.Assert.assertEquals;
@@ -8,29 +9,29 @@ import org.junit.Test;
 
 
 
-public class TestRunTest {
+public class AppTest{
 
 	@Test 
 	public void type() throws Exception {
-		assertNotNull(TestRun.class);
+		assertNotNull(App.class);
 	}
 
 	@Test 
 	public void instantiation() throws Exception {
-		TestRun target = new TestRun();
+		App target = new App();
 		assertNotNull(target);
 	}
 
 	@Test 
 	public void main_A$StringArray() throws Exception {
 		String[] args = new String[] {};
-		TestRun.main(args);
+		App.main(args);
 	}
 
 	@Test 
 	public void fonctionAddition_A$int$int() throws Exception {
 		
-		TestRun target = new TestRun();
+		App target = new App();
 		int x = 1;
 		int y = 2;
 		int actual = target.fonctionAddition(x, y);

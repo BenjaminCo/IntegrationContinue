@@ -1,4 +1,5 @@
 language: java
 sudo: false
-script: cd IntegrationContinuId
-        mvn test
+script:
+- cd IntegrationContinuId
+- mvn test

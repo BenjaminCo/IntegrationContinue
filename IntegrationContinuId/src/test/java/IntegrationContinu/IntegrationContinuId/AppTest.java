@@ -1,35 +1,30 @@
 package IntegrationContinu.IntegrationContinuId;
 
-
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
-
-
 
 public class AppTest{
 
 	@Test 
-	public void type() throws Exception {
+	public void TestCaseTypeTest() throws Exception {
 		assertNotNull(App.class);
 	}
 
 	@Test 
-	public void instantiation() throws Exception {
+	public void TestCaseInstantiation() throws Exception {
 		App target = new App();
 		assertNotNull(target);
 	}
 
 	@Test 
-	public void main_A$StringArray() throws Exception {
+	public void TestCaseMain_A$StringArray() throws Exception {
 		String[] args = new String[] {};
 		App.main(args);
 	}
 
 	@Test 
-	public void fonctionAddition_A$int$int() throws Exception {
+	public void TestCaseFonctionAddition_A$int$int() throws Exception {
 		
 		App target = new App();
 		int x = 1;

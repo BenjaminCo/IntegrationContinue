@@ -1,5 +1,5 @@
 language: java
-sudo: false
+sudo: true
 script:
 - cd IntegrationContinuId
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
